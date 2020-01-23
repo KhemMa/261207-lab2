@@ -22,11 +22,11 @@
      integrity="sha256-kx16nUTlNRyEpdk7cvpnqblbDbTe/nADul9o2uYeGSw=" crossorigin="anonymous" />
     
      <!-- Theme style -->
-    <link rel="stylesheet" href="./css/AdminLTE.min.css">
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
     
     <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="./css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,7 +73,7 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="./picture/sss.jpg" class="user-image" alt="User Image">
+                  <img src="picture/sss.jpg" class="user-image" alt="User Image">
                   <span class="hidden-xs">Khem Mahamart</span>
                 </a>
               </li>
@@ -92,7 +92,7 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="./picture/sss.jpg" class="img-circle" alt="User Image">
+              <img src="picture/sss.jpg" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
               <a href="#"><i class="fa fa-circle text-success"></i> Standby</a>
@@ -106,7 +106,7 @@
           <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MAIN MENU</li>
             <li>
-              <a href="./index.html">
+              <a href="index.html">
                 <i class="fa fa-home"></i> <span>Home</span>
                 <span class="pull-right-container">
                   <!--<i class="fa fa-angle-left pull-right"></i>-->
@@ -120,7 +120,7 @@
               -->
             </li>
             <li>
-              <a href="./gallery.html">
+              <a href="gallery.html">
                 <i class="fa fa-table"></i> <span>Gallery</span>
                 <!--
                 <span class="pull-right-container">
@@ -129,7 +129,7 @@
               </a>
             </li>
             <li>
-              <a href="./contact.html">
+              <a href="contact.html">
                 <i class="fa fa-user"></i> <span>Contact</span>
                 <!--
                 <span class="pull-right-container">
@@ -137,6 +137,15 @@
                 </
                 span>
                 -->
+              </a>
+            </li>
+            <li>
+              <a href="miniG.html">
+                <i class="fa fa-birthday-cake"></i> <span>Game</span>
+                <!--
+                <span class="pull-right-container">
+                  <span class="label label-primary pull-right">4</span>
+                </span>-->
               </a>
             </li>
           </ul>
@@ -425,7 +434,15 @@ integrity="sha256-qE/6vdSYzQu9lgosKxhFplETvWvqAAlmAuR+yPh/0SI=" crossorigin="ano
 integrity="sha256-GqCMs8eqcNJo0k1Zw3TBSve9COCvjIX45PYKJlH0urU=" crossorigin="anonymous"></script>
 
 <!-- AdminLTE App -->
-<script src="./js/adminlte.min.js"></script>
+<script src="js/adminlte.min.js"></script>
+
+<script src="js/game.js"></script>
+
+<script>
+    $(document).ready(function () {
+      $('.sidebar-menu').tree()
+    })
+  </script>
 
     
 </body>
